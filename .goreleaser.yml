@@ -6,7 +6,6 @@
 before:
   hooks:
     # this is just an example and not a requirement for provider building/publishing
-    - go clean -modcache
     - go mod tidy
 builds:
   - env:
@@ -20,7 +19,6 @@ builds:
     ldflags:
       - "-s -w -X main.version={{.Version}} -X main.commit={{.Commit}}"
     goos:
-      - freebsd
       - windows
       - linux
       - darwin
