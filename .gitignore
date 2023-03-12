@@ -2,6 +2,8 @@
 terraform-provider-hashicups
 bin
 vendor
+.history
+dist
 
 # Local .terraform directories
 **/.terraform/*
