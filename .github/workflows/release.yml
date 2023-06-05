@@ -7,7 +7,7 @@
 # or use an alternative one for key handling.
 # good yh
 # You will need to pass the `--batch` flag to `gpg` in your signing step
-# in `goreleaser` to indicate this is being used in a non-interactive mode.
+# in `goreleaser` to indicate this is being used in a non-interactive mode.j
 #
 name: release
 on:
